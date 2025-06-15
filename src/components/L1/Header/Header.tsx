@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import styles from './header.module.css';
-import HamMenu from './HamMenu';
+import HamMenu from '../HamMenu/HamMenu';
 
 const Header = () => {
   const [open, setOpen] = useState(false);

@@ -1,13 +1,13 @@
 'use client';
 
 import React, { useState } from 'react';
-import SearchBar from '../SearchBar';
-import Modal from '../Modal';
-import FilterAndSort from '../FilterandSort';
-import OrderCard from '../OrderCard';
-import ErrorComponent from '../ErrorComponent';
+import SearchBar from '../../UI/SearchBar/SearchBar';
+import Modal from '../../UI/Modal/Modal';
+import FilterAndSort from '../../L1/FilterandSort/FilterandSort';
+import OrderCard from '../OrderCard/OrderCard';
+import ErrorComponent from '../../shared/ErrorComponent/ErrorComponent';
 import styles from './OpenOrders.module.css';
-import Pagination from '../Pagination';
+import Pagination from '../../UI/Pagination/Pagination';
 
 interface OrderCardProps {
   time: string;
