@@ -9,7 +9,6 @@ const Header = () => {
   const marketData = [
     { name: 'NIFTY', value: '52,323.30' },
     { name: 'NIFTY50', value: '25,255.75' },
-    { name: 'RELCHEMQ', value: '162.73' }
   ];
 
   return (
