@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import styles from './header.module.css';
+import styles from './Header.module.css';
 import HamMenu from '../HamMenu/HamMenu';
 
 const Header = () => {
