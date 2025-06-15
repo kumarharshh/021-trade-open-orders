@@ -6,7 +6,7 @@ import Modal from '../../UI/Modal/Modal';
 import FilterAndSort from '../../L1/FilterandSort/FilterandSort';
 import OrderCard from '../OrderCard/OrderCard';
 import ErrorComponent from '../../shared/ErrorComponent/ErrorComponent';
-import styles from './OpenOrders.module.css';
+import styles from './openOrders.module.css';
 import Pagination from '../../UI/Pagination/Pagination';
 
 interface OrderCardProps {
