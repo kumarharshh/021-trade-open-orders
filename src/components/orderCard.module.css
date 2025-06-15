@@ -1,0 +1,55 @@
+.card {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  position: relative;
+}
+.actions {
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+.menu {
+  position: absolute;
+  top: 38%;
+  transform: translateX(0%);
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu span {
+  display: block;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.menu span:hover {
+  background-color: #f0f0f0;
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.tickerRow {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+.detailRow {
+  color: #555;
+  font-size: 0.9rem;
+}
+.priceRow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}

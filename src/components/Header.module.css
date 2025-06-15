@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+  background: white;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.marketData {
+  display: flex;
+  gap: 20px;
+}
+
+.marketItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.marketValue {
+  color: green;
+  font-weight: bold;
+}
+
+.navLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.profileIcon {
+  background: #ddd;
+  padding: 8px 12px;
+  border-radius: 50%;
+}
+
+.hamburger {
+  background: none;
+  border: none;
+  font-size: 24px;
+  display: none;
+}
+
+.menuIcon{
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navLinks {
+    display: none;
+  }
+
+  .menuIcon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}

@@ -1,0 +1,83 @@
+.container {
+  padding: 16px;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.tagsWrapper {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  display: flex;
+  gap: 8px;
+  background-color: #eee;
+  padding: 10px 8px;
+  border-radius: 4px;
+  font-size: 16px;
+  width: fit-content;
+  margin-top: 10px;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.downloadButton{
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.filterButton {
+  margin-top: 16px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.filterButton:hover {
+  background-color: #005bb5;
+}
+
+.clearButton {
+  margin-top: 16px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.clearButton:hover {
+  background-color: darkred;
+}
+
+.cardsWrapper {
+  margin-top: 24px;
+  display: grid;
+  gap: 16px;
+}
